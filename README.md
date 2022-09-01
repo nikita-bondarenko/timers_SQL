@@ -6,7 +6,7 @@ npm install
 ```
 ### Compiles and hot-reloads for development
 ``` 
-npm run serve
+npm run start
 ``` 
 
 In this application, you can create your own user, start and stop timers. The app uses PostgreSQL.
