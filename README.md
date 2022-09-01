@@ -1,9 +1,16 @@
 # timers_SQL
 
-В этом приложении вы можете, создав собственный аккаунт, запускать и останавливать таймеры.
+### Project setup
+```
+npm install
+```
+### Compiles and hot-reloads for development
+``` 
+npm run serve
 
-Важный момент: для того чтобы избежать конфликта между синтаксисом Vue и Nunjucks последние настроены так, что для серверных шаблонов вместо фигурных скобок используются квадратные:
+In this application, you can create your own user, start and stop timers.
 
+An important point: to prevent conflict between the Vue and Nunjucks syntaxes, the latest sentiment is to use square brackets instead of curly braces for server-side templates:
 ```js
   tags: {
     blockStart: "[%",
