@@ -7,6 +7,7 @@ npm install
 ### Compiles and hot-reloads for development
 ``` 
 npm run serve
+``` 
 
 In this application, you can create your own user, start and stop timers.
 
